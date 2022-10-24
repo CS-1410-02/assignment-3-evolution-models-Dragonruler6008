@@ -1,3 +1,4 @@
+
 //First Iteration not very good
 interface Happy {
     String happy = "";

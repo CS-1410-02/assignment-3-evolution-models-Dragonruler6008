@@ -2,6 +2,23 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+class MainLoop {
+    public static void main(String[] args) {
+        //user available settings
+        World earth = new World(1337);
+        int turns = 6;
+        //end settings
+
+        for(int i = 0; i < turns; i++){
+            earth.createCreature();
+            earth.creatureRussianRoulette();
+        }
+        earth.print();
+        
+    }
+    
+}
+
 class Creature {
     float dieChance = .05f;
     float reproduceChance = .1f;
@@ -75,8 +92,8 @@ class Snake extends Creature {
         return new Snake();
     } else {
         return null;
+        }
     }
-}
 }
 
 class Dog extends Creature {
@@ -90,23 +107,6 @@ class Dog extends Creature {
         return new Dog();
     } else {
         return null;
-    }
-}
-}
-
-class MainLoop {
-    public static void main(String[] args) {
-        //user available settings
-        World earth = new World(1337);
-        int turns = 6;
-        //end settings
-
-        for(int i = 0; i < turns; i++){
-            earth.createCreature();
-            earth.creatureRussianRoulette();
         }
-        earth.print();
-        
     }
-    
 }
