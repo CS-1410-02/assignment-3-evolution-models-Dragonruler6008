@@ -48,7 +48,7 @@ class World {
         float chance = rng.nextFloat();
         if(chance < spawnChance){
             //Spawn a creature now
-
+            
             //Pick type of Creature then spawn it
 
 
@@ -76,7 +76,7 @@ class World {
 
     void print() {
         for(int i = 0; i < creatures.size(); i++){
-
+            System.out.println(creatures.get(i) instanceof Dog);
         }
     }
 }
