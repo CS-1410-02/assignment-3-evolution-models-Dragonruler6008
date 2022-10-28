@@ -1,4 +1,9 @@
-//Second Iteration VERY GOOD
+//Second Iteration VERY GOOD, but still needs refinement and a bit of tweaking.
+/*
+ * Authors:
+ * Lucas Bigler
+ * Nick Savage
+ */
 import java.util.ArrayList;
 import java.util.Random;
 
