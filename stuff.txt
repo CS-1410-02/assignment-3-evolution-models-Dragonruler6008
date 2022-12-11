@@ -1,0 +1,10 @@
+You create a simulation which rolls for a series of 
+different attributes in your classes that ultimately 
+contribute to an agent's success or failure and can 
+be affected by other classes' attributes. 
+For Example: You create a creature that has a 10 
+percent chance of finding food which will update the 
+creature's hunger. Additionally your success or lack 
+of success in finding food updates how much food there 
+is in the world and may increase scarcity and more 
+competitiveness.
